@@ -5,8 +5,7 @@
 
     <application
         android:allowBackup="false"
-        android:label="Disable Pin Verify 72h"
-        android:icon="@mipmap/ic_launcher"
+        android:label="DisableVerify"
         android:theme="@android:style/Theme.DeviceDefault.NoActionBar">
         <meta-data
             android:name="xposedmodule"
