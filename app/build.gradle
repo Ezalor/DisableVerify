@@ -44,6 +44,6 @@ repositories {
 }
 
 dependencies {
-    // implementation 'de.robv.android.xposed:api:82' // 根据你的Xposed版本选择
-    implementation files('libs/xposed-api-82.jar')
+    implementation 'de.robv.android.xposed:api:82' // 根据你的Xposed版本选择
+    // implementation files('libs/xposed-api-82.jar')
 }
