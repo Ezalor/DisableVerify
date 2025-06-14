@@ -43,8 +43,11 @@ jobs:
       run: |
         yes | sdkmanager --sdk_root=$HOME/android "platforms;android-33" "build-tools;33.0.2"
 
+    - name: Install Gradle
+      uses: gradle/gradle-build-action@v2
+
     - name: Build APK with Gradle
-      run: ./gradlew assembleRelease
+      run: gradle assembleRelease
 
     - name: Upload APK artifact
       uses: actions/upload-artifact@v4
